@@ -1,6 +1,6 @@
 def greet_user():
-    print ("Hello World")
-    name = input ("whats your name?")
+    print("Hello World")
+    name = input("whats your name?")
     print(f"Nice to meet you, {name}!")
     return name
 
@@ -13,9 +13,9 @@ def calculate_age():
 def main():
     user_name = greet_user()
     user_age = calculate_age()
-    print (f"So, {user_name}, you are about {user_age} years old")
-    print ("Thanks for trying my program")
+    print(f"So, {user_name}, you are about {user_age} years old")
+    print("Thanks for trying my program")
 
-    if __name__ == "_main_":
-        main()
+if __name__ == "__main__":
+    main()
     
