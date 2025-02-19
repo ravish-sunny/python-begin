@@ -13,7 +13,9 @@ def calculate_age():
 def main():
     user_name = greet_user()
     user_age = calculate_age()
-    print (f"So, {name}, you are about {age} years old")
+    print (f"So, {user_name}, you are about {user_age} years old")
     print ("Thanks for trying my program")
 
+    if __name__ == "_main_":
+        main()
     
